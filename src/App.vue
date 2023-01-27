@@ -1,15 +1,21 @@
 <template>
 	<div id="app">
-		<Ref />
+		<!-- <Ref /> -->
+		<Receive />
+		<Send />
 	</div>
 </template>
 
 <script>
-import Ref from '@/components/Ref/Ref.vue';
+// import Ref from '@/components/Ref/Ref.vue';
+import Receive from '@/components/EventBus/Receive.vue';
+import Send from '@/components/EventBus/Send.vue';
 export default {
 	name: 'App',
 	components: {
-		Ref,
+		// Ref,
+		Receive,
+		Send,
 	},
 };
 </script>
