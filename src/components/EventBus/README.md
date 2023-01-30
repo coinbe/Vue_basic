@@ -10,3 +10,8 @@ $emit : 이벤트 보내기 <br />
 $on : 이벤트 받기 <br />
 $off : 이벤트 제거
 -----------------
+
+EventBus.js 생성 시 주의사항
+**export default**를 붙여주어야한다
+안붙이면 
+TypeError: Cannot read properties of undefined (reading $on)
