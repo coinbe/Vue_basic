@@ -3,7 +3,7 @@
 		<!-- <Ref /> -->
 		<!-- <Receive /> -->
 		<!-- <Send /> -->
-		<EmitParent />
+		<!-- <EmitParent /> -->
 	</div>
 </template>
 
@@ -11,14 +11,14 @@
 // import Ref from '@/components/Ref/Ref.vue';
 // import Receive from '@/components/EventBus/Receive.vue';
 // import Send from '@/components/EventBus/Send.vue';
-import EmitParent from '@/components/Emit/EmitParent.vue';
+// import EmitParent from '@/components/Emit/EmitParent.vue';
 export default {
 	name: 'App',
 	components: {
 		// Ref,
 		// Receive,
 		// Send,
-		EmitParent,
+		// EmitParent,
 	},
 };
 </script>
